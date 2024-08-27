@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piedra-papel-tijera</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="text/javascript" src="main.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <main class="main">
+        <div class="game-container">
+            <div class="game-display">
+                <div class="game-score">
+                    <h2 class="game-score__name user">Tú</h2>
+                    <span class="game-score__number" id="user-score">0</span>
+                </div>
+                <div class="game-score">
+                    <h2 class="game-score__name computer"><i class="bi bi-pc-display"></i></h2>
+                    <span class="game-score__number" id="computer-score">0</span>
+                </div>
+            </div>
+
+            <div class="game-controls">
+                <div class="game-option" data-id="piedra">
+                    <img class="game-option__img" src="assets/piedra.png" alt="piedra">
+                    <span class="game-option__text">Piedra</span>
+                </div>
+                <div class="game-option" data-id="papel">
+                    <img class="game-option__img" src="assets/papel.png" alt="papel">
+                    <span class="game-option__text">Papel</span>
+                </div>
+                <div class="game-option" data-id="tijeras">
+                    <img class="game-option__img" src="assets/tijeras.png" alt="tijeras">
+                    <span class="game-option__text">Tijeras</span>
+                </div>
+            </div>
+
+            <div class="game-result">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
